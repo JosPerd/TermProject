@@ -1,0 +1,18 @@
+{
+    "B01": "Coastal aerosol, central wavelength 443 nm",
+    "B02": "Blue, central wavelength 490 nm",
+    "B03": "Green, central wavelength 560 nm",
+    "B04": "Red, central wavelength 665 nm",
+    "B05": "Measurement of leaf cell structure and water content, central wavelength 705 nm",
+    "B06": "Plant senescence, central wavelength 740 nm",
+    "B07": "Plant senescence, central wavelength 783 nm",
+    "B08": "Near Infrared or NIR, central wavelength 842 nm",
+    "B8A": "Detailed Vegetation studies, central wavelength 865 nm",
+    "B09": "Water Vapor, central wavelength 945 nm",
+    "B11": "Short-wave Infrared or SWIR, central wavelength 1610 nm",
+    "B12": "SWIR used in geological studies, central wavelength 2190 nm",
+    "SCL": "Scene classification map",
+    "WVP": "Water Vapor product",
+    "visual": "True color composite image of Bands 4, 3, and 2",
+    "preview": "Low-resolution image for quick dataset visualization"
+}
