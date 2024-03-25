@@ -1,0 +1,17 @@
+name: geospatial_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.7
+  - rioxarray
+  - pystac
+  - matplotlib
+  - pip
+  - python_collections
+  - json
+  - glob
+  - numpy
+  - rasterio
+  - os
+  - pip:
+      - planetary-computer

@@ -1,0 +1,10 @@
+{
+    "post_event_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20231226T082341_R121_T36RXV_20231226T131408",
+    "post_event_date": "12/26/2023 08:23:41 UTC",
+    "pre_event_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20221216T082249_R121_T36RXV_20221217T021725",
+    "pre_event_date": "12/16/2022 08:22:49 UTC",
+    "bands": ["B02", "B03", "B04", "B08", "B09", "B11", "B12", "B8A", "SCL", "WVP"],
+    "coords": [644000, 648000, 3488000, 3492000],
+    "side_length": 3000,
+    "output_dir": "./scratch"
+}
