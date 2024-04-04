@@ -9,10 +9,12 @@ https://browser.dataspace.copernicus.eu/?zoom=15&lat=31.51439&lng=34.45411&theme
 
 ### Data
 For the analysis we are making use of Sentinel-1 and Sentinel-2 data. (#TODO korte uitleg per Sentinel geven). (#TODO Referentie kaart en hoe we met die polygons en de verschillende punten omgaan die niet binnen de huizen polygons liggen). As for the qualification of our results we will make use of the UNOSAT building damage site map (#TODO). 
+
 ### Sentinel - 1 Log intensity difference
 
 #### Pre-Processing
 Performing any analysis using SAR intensity radar maps requires preprocessing operations to obtain corrected data suitable for analysis. This study utilizes the SNAP 9.0 software created by the ESA team, and all images undergo the same preprocessing steps [4]. The first step is to radiometrically calibrate the images, followed by the application of a Lee sigma filter with a window size of 6x6 pixels to reduce speckle effects. The final step involved correcting the SAR distortions. To achieve this, we used the Range Doppler orthorectification method with a 30m SRTM 1 sec HGT DEM to project the data into the CRS WGS84. This enables the data to be used in subsequent analysis steps.
+
 ### Sentinel - 2 Gray Level Co-occurence Matrix
 This image, derived from a grayscale source, computes the frequency of occurrence of a pixel with a certain gray level in relation to its adjacent pixels, whether horizontally, vertically, or diagonally. It quantifies the instances of pixel pairs with specific values and their spatial relationships, thereby mapping out the distribution of gray levels across the image. This textural analysis yields insights into the surface characteristics. This technique is extensively utilized in remote sensing for the identification of collapsed structures [1-3].
 
