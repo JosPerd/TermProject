@@ -23,3 +23,8 @@ This image, derived from a grayscale source, computes the frequency of occurrenc
 3. https://doi.org/10.3390/rs14246239
 4. https://www.eoportal.org/other-space-activities/snap-sentinel-application-platform
 
+
+
+Plan
+GCLM werkend krijgen
+Bufferzone maken rondom polygons, en juiste gebied uitknippen. Na bufferzone punten die erin vallen behouden, andere weggogoien. 
