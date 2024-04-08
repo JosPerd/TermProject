@@ -1,6 +1,5 @@
 {
     "post_event_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20231226T082341_R121_T36RXV_20231226T131408",
-    //Niet gebruiken "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20231126T082251_R121_T36RXV_20231126T123731"
     "post_event_date": "12/26/2023 08:23:41 UTC",
     "pre_event_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20221216T082249_R121_T36RXV_20221217T021725",
     "pre_event_date": "12/16/2022 08:22:49 UTC",
